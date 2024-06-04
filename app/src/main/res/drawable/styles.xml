@@ -3,6 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
         <item android:name="android:textSize">70sp</item>
         <item android:name="android:textColor">#0B8FAC</item>
+
     </style>
 
 

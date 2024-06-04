@@ -1,0 +1,20 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="138.38dp"
+    android:height="153.12dp"
+    android:viewportWidth="138.38"
+    android:viewportHeight="153.12">
+
+    <group>
+        <clip-path
+            android:pathData="M0 0H138.38V153.125H0V0Z"/>
+    </group>
+
+    <aapt:attr name="android:fillColor">
+        <image
+            android:width="138.38dp"
+            android:height="153.12dp"
+            android:src="@drawable/doctorzionpic"/>
+    </aapt:attr>
+</vector>
