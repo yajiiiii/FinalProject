@@ -5,51 +5,69 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="MainActivity">
+    tools:context=".Success">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logooo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/successfullyshow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398"/>
+        app:layout_constraintVertical_bias="0.363" />
 
     <TextView
-        android:id="@+id/welcome"
-        android:layout_width="253dp"
-        android:layout_height="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:autoSizeTextType="uniform"
-        android:fontFamily="@font/lexend_bold"
+        android:fontFamily="@font/open_sans_extrabold"
         android:gravity="center"
-        android:text="Likhaya"
+        android:text="Congratulations"
         android:textColor="@color/main"
-        android:textStyle="bold"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569"/>
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"
+        android:text="You Set Your Appointment Successfully"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
 
     <Button
-        android:id="@+id/btnBook"
-        android:layout_width="380dp"
+        android:id="@+id/btnsuccessfulback"
+        android:layout_width="365dp"
         android:layout_height="63dp"
         android:background="@drawable/signinbg"
-        android:fontFamily="@font/open_sans_bold"
-        android:text="Set an Appointment"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Back"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.911" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
