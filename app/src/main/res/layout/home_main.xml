@@ -19,6 +19,55 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.043" />
 
+    <ImageView
+        android:id="@+id/hamburger_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <LinearLayout
+        android:id="@+id/drawer_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/profile_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/menu_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:padding="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/menu_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:padding="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/menu_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:padding="16dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/testviewhome"
         android:layout_width="wrap_content"
@@ -219,13 +268,13 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/category_therapist"
+                android:id="@+id/category_gpv"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/vector"
                 android:fontFamily="@font/open_sans_semibold"
-                android:text="Therapist"
+                android:text="GPV"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -244,20 +293,6 @@
 
         </LinearLayout>
     </HorizontalScrollView>
-
-    <TextView
-        android:id="@+id/see_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/open_sans"
-        android:text="See All"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
 
     <TextView
         android:id="@+id/see_all2"
@@ -339,7 +374,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btndocpagad"
+            android:id="@+id/btndoczionhome"
             android:layout_width="79dp"
             android:layout_height="28.38dp"
             android:layout_marginStart="170dp"
@@ -358,7 +393,7 @@
             android:background="@drawable/star"
             android:layout_marginTop="131.37dp"
             android:layout_marginStart="290dp"
-            app:layout_constraintStart_toEndOf="@id/btndocpagad"
+            app:layout_constraintStart_toEndOf="@id/btndoczionhome"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -370,7 +405,7 @@
             android:text="5.0"
             android:layout_marginTop="131.37dp"
             android:layout_marginStart="323dp"
-            app:layout_constraintStart_toEndOf="@id/btndocpagad"
+            app:layout_constraintStart_toEndOf="@id/btndoczionhome"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView

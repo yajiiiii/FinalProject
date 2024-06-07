@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">FinalProjectAppointmentSystem</string>
-    <string name="medica">
-Medica
-</string>
-    <string name="welcome">
-Welcome
-</string>
+    <string name="medica">Medica</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
 </resources>

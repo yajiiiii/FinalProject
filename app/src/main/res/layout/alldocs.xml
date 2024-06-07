@@ -87,7 +87,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="23.75dp"
             android:fontFamily="@font/open_sans_semibold"
-            android:text="Doctor Zion"
+            android:text="Dr. Zion"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -102,7 +102,7 @@
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/btndocpagad"
+            android:id="@+id/btndoczion"
             android:layout_width="79dp"
             android:layout_height="28.38dp"
             android:layout_marginStart="170dp"
@@ -169,7 +169,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="23.75dp"
             android:fontFamily="@font/open_sans_semibold"
-            android:text="Doctor Aya"
+            android:text="Dr. Aia"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -184,7 +184,7 @@
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/btndocaya"
+            android:id="@+id/btndocaia"
             android:layout_width="79dp"
             android:layout_height="28.38dp"
             android:layout_marginStart="170dp"
@@ -251,7 +251,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="23.75dp"
             android:fontFamily="@font/open_sans_semibold"
-            android:text="Doctor Aga"
+            android:text="Dr. Aga"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
