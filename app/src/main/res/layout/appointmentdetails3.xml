@@ -153,7 +153,7 @@
         android:layout_height="104dp"
         android:fontFamily="@font/open_sans"
         android:gravity="start|top"
-        android:text="Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl."
+        android:text="Dr. Aia is a highly skilled and compassionate veterinary surgeon at GPV Veterinary Center, specializing in advanced surgical procedures for pets. With a wealth of experience and a commitment to excellence, Dr. Aia ensures that every pet receives the highest standard of surgical care."
         android:textColor="@color/gray"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"

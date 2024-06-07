@@ -60,7 +60,7 @@
         android:layout_width="363dp"
         android:layout_height="49dp"
         android:fontFamily="@font/open_sans"
-        android:text="Korem ipsum dolor sit amet, consectetur adipiscing elit."
+        android:text="Please sign in for more verification"
         android:textColor="#858585"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

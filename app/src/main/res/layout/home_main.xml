@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="gravity"
     tools:context=".Home">
 
     <ImageView
@@ -36,35 +37,35 @@
         android:id="@+id/drawer_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:orientation="vertical"
         android:visibility="gone"
-        android:background="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/profile_image">
 
         <TextView
             android:id="@+id/menu_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Home"
             android:padding="16dp"
+            android:text="Home"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/menu_profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Profile"
             android:padding="16dp"
+            android:text="Profile"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/menu_sign_out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign Out"
             android:padding="16dp"
+            android:text="Sign Out"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -100,8 +101,8 @@
 
     <View
         android:id="@+id/rectangle_1"
-        android:layout_width="366dp"
-        android:layout_height="169.56dp"
+        android:layout_width="370dp"
+        android:layout_height="221dp"
         android:layout_marginStart="22dp"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="23dp"
@@ -116,80 +117,42 @@
         android:layout_width="230dp"
         android:layout_height="156.84dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="252dp"
         android:background="@drawable/doc1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <View
-        android:id="@+id/dottt"
-        android:layout_width="9dp"
-        android:layout_height="9dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="404dp"
-        android:background="@drawable/grayellipse"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/medical_cen"
-        android:layout_width="200dp"
-        android:layout_height="30dp"
+        android:layout_width="194dp"
+        android:layout_height="33dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="228dp"
         android:fontFamily="@font/open_sans_bold"
-        android:text="Medical Center"
+        android:text="Veterinary Center"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.023"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/dotttt"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_marginStart="224dp"
-        android:layout_marginTop="404dp"
-        android:background="@drawable/grayellipse"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/dot"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_marginStart="184dp"
-        android:layout_marginTop="404dp"
-        android:background="@drawable/ellipseblue"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/dottttt"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="404dp"
-        android:background="@drawable/grayellipse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/recteangleText"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="191dp"
+        android:layout_height="161dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="260dp"
         android:fontFamily="@font/open_sans"
-        android:text="Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+        android:gravity="fill"
+        android:text="Veterinary Center, we are dedicated to providing exceptional care for your beloved pets. Our state-of-the-art facility is equipped with the latest technology and staffed by a team of highly trained professionals who are passionate about animal health and well-being."
+        android:textAlignment="gravity"
         android:textColor="@color/white"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -231,10 +194,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintVertical_bias="0.564" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -323,8 +286,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.742" />
 
-    <androidx.cardview.widget.CardView
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="360.55dp"
         android:layout_height="171.87305dp"
@@ -367,7 +329,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="56.92dp"
             android:fontFamily="@font/open_sans"
-            android:text="Jorem ipsum dolor, consectetur adipiscing elit. Nunc v libero et velit interdum, ac  mattis."
+            android:text="Utilizing digital dental x-rays and advanced CT imaging to get a complete picture of your pet's oral health."
             android:textColor="@color/gray"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@id/doctorimagezion"
@@ -390,30 +352,30 @@
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/star"
-            android:layout_marginTop="131.37dp"
             android:layout_marginStart="290dp"
+            android:layout_marginTop="131.37dp"
+            android:background="@drawable/star"
             app:layout_constraintStart_toEndOf="@id/btndoczionhome"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans_semibold"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:text="5.0"
-            android:layout_marginTop="131.37dp"
             android:layout_marginStart="323dp"
+            android:layout_marginTop="131.37dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="5.0"
+            android:textColor="@color/black"
+            android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@id/btndoczionhome"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:layout_marginTop="23.75dp"
             android:layout_marginStart="321.5dp"
-            android:background="@drawable/heart"/>
+            android:layout_marginTop="23.75dp"
+            android:background="@drawable/heart" />
     </androidx.cardview.widget.CardView>
 
 

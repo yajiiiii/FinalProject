@@ -97,7 +97,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="56.92dp"
             android:fontFamily="@font/open_sans"
-            android:text="Jorem ipsum dolor, consectetur adipiscing elit. Nunc v libero et velit interdum, ac  mattis."
+            android:text="Dr. Zion is a highly skilled and compassionate veterinary dentist at GPV Veterinary Center"
             android:textColor="@color/gray"
             android:textSize="12sp" />
 
@@ -179,7 +179,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="56.92dp"
             android:fontFamily="@font/open_sans"
-            android:text="Jorem ipsum dolor, consectetur adipiscing elit. Nunc v libero et velit interdum, ac  mattis."
+            android:text="Dr. Aia is a highly skilled and compassionate veterinary surgeon at GPV Veterinary Center."
             android:textColor="@color/gray"
             android:textSize="12sp" />
 
@@ -261,7 +261,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="56.92dp"
             android:fontFamily="@font/open_sans"
-            android:text="Jorem ipsum dolor, consectetur adipiscing elit. Nunc v libero et velit interdum, ac  mattis."
+            android:text="Dr. Aga is a dedicated and experienced General Practice Veterinarian at GPV Veterinary Center."
             android:textColor="@color/gray"
             android:textSize="12sp" />
 

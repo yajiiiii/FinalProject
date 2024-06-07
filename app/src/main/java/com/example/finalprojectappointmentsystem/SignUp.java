@@ -7,6 +7,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -18,10 +19,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class SignUp extends AppCompatActivity {
 
     private EditText etFullName, etEmail, etPassword, etPhoneNumber;
-    private Button btnSignUp2;
+    private Button btnSignUp;
     private TextView tvMessage;
     private DatabaseHelper databaseHelper;
-    private Button btnSignIn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,17 +36,18 @@ public class SignUp extends AppCompatActivity {
 
         // Initialize the views
         etFullName = findViewById(R.id.etFullName);
-        etEmail = findViewById(R.id.intEmail);
+        etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         etPhoneNumber = findViewById(R.id.intNumber);
-        btnSignUp2 = findViewById(R.id.btnSignUp2);
-        tvMessage = findViewById(R.id.tvMessage); // Assuming you have a TextView with this ID in your layout
+        btnSignUp = findViewById(R.id.btnSignUp);
+
+
 
         // Initialize the database helper
         databaseHelper = new DatabaseHelper(this);
 
         // Set click listener on the sign-up button
-        btnSignUp2.setOnClickListener(new View.OnClickListener() {
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (validateInputs()) {
@@ -59,7 +60,7 @@ public class SignUp extends AppCompatActivity {
                     boolean isInserted = databaseHelper.insertUser(fullName, email, password, phoneNumber);
                     if (isInserted) {
                         displayMessage("Sign Up Successful");
-                        Intent intent = new Intent(SignUp.this, Home.class);
+                        Intent intent = new Intent(SignUp.this, SignIn.class);
                         intent.putExtra("FULL_NAME", fullName);
                         startActivity(intent);
                     } else {
@@ -69,14 +70,15 @@ public class SignUp extends AppCompatActivity {
             }
         });
 
-        btnSignIn2 = findViewById(R.id.btnSignIn2);
+        // Find the back button
+        ImageView backButton = findViewById(R.id.backbutton3);
 
-        btnSignIn2.setOnClickListener(new View.OnClickListener() {
+        // Set an OnClickListener to the back button
+        backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(SignUp.this, SignIn.class);
-                startActivity(intent);
+                // Finish the current activity and go back to the previous one
+                finish();
             }
         });
     }
